@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Our Funky HTML Page</title><!-- Search engines show the first 65 characters of the title-->
+    <meta name="description" content="Our first page"> <!-- Search engines generally only show the first 155 characters of the description -->
+    <meta name="keywords" content="html tutorial template">
+    <style>
+    /* Styles will go here */
+      #menu {
+        position: absolute;
+        top: 70px;
+        left: 10px;
+        width: 500px;
+      }
+      #content {
+        margin-top: 20px;
+      }
+      #menu ul {
+        padding-left: 30px;
+        width: 100%;
+      }
+      #menu li {
+        list-style: none;
+        display: inline-block;
+        padding: 5px 10px;
+        border-bottom: 1px solid #3366ff;
+        width: 70px;
+      }
+      #menu li:hover {
+        background-color: #99ccff;
+        padding-left: 20px;
+        font-weight: bold;
+      }
+      #menu li:first-child {
+        border-left: none;
+      }
+      #menu li:hover:before {
+        content: '\00bb ';
+        padding-right: 5px;
+      }
+    </style>
+  </head>
+
+
+
+  <body>
+    <div id='content'>
+      <h1>Welcome</h1>
+      <p>This is our home page that will help you navigate our site.</p>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Blog</li>
+      </ul>
+    </div>
+    <div id='menu'>
+      <ul>
+        <li>Home</li>
+        <li>Blog</li>
+        <li>About</li>
+      </ul>
+    </div>
+  </body>
+</html>
