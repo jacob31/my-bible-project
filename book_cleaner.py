@@ -2,8 +2,8 @@ import re
 import os
 
 
-#https://archive.org/details/cu31924067146773/page/n129/mode/2up
-#28,904
+#https://archive.org/details/cu31924067146773/page/n193/mode/2up
+#28,904  £
 # get file name without extension
 txt_file = os.sys.argv[1]
 f_name, f_ext = os.path.splitext(str(txt_file))
