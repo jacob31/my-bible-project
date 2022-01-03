@@ -2,7 +2,7 @@ import re
 import os
 
 
-#https://archive.org/details/cu31924067146773/page/n281/mode/2up
+#https://archive.org/details/cu31924067146773/page/n299/mode/2up
 #28,904  £
 # get file name without extension
 txt_file = os.sys.argv[1]
