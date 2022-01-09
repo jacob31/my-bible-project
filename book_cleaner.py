@@ -2,8 +2,8 @@ import re
 import os
 
 
-#https://archive.org/details/cu31924067146773/page/n299/mode/2up
-#28,904  £
+#https://archive.org/details/CHARLESBookOfJubilees/page/n137/mode/2up
+#28,904  ££
 # get file name without extension
 txt_file = os.sys.argv[1]
 f_name, f_ext = os.path.splitext(str(txt_file))
@@ -21,7 +21,7 @@ scrolls = {'GEN': 'Genesis', 'EXO': 'Exodus', 'LEV': 'Leviticus', 'NUM': 'Number
 'JDT': 'Judith', 'ESG': 'Esther (Greek)', 'WIS': 'Wisdom', 'SIR': 'Sirach',
 'BAR': 'Baruch',  'PRA': 'Azariah', 'SUS': 'Susanna',  'BEL': 'Bel',
 '1MA': '1 Maccabees', '2MA': '2 Maccabees', '1ES': '1 Esdras', 'PRM': 'Manasseh',
-'4ES': '4 Esdras',  '1EN': '1 Enoch', 'MAT': 'Matthew', 'MAR': 'Mark', 'LUK': 'Luke', 'JOH': 'John',
+'4ES': '4 Esdras',  '1EN': '1 Enoch', 'JUB': 'Jubilees', 'MAT': 'Matthew', 'MAR': 'Mark', 'LUK': 'Luke', 'JOH': 'John',
 'ACT': 'Acts', 'ROM': 'Romans', '1CO': '1 Corinthians', '2CO': '2 Corinthians',
 'GAL': 'Galatians', 'EPH': 'Ephesians', 'PHI': 'Philippians', 'COL': 'Colossians',
 '1TH': '1 Thessalonians', '2TH': '2 Thessalonians', '1TI': '1 Timothy',
