@@ -2,8 +2,8 @@ import re
 import os
 
 
-#https://archive.org/details/CHARLESBookOfJubilees/page/n137/mode/2up
-#28,904  ££
+#https://archive.org/details/CHARLESBookOfJubilees/page/n173/mode/2up
+#28,904 “ £”£’
 # get file name without extension
 txt_file = os.sys.argv[1]
 f_name, f_ext = os.path.splitext(str(txt_file))
