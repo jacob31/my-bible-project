@@ -2,7 +2,7 @@ import re
 import os
 
 
-#https://archive.org/details/CHARLESBookOfJubilees/page/n173/mode/2up
+#https://archive.org/details/CHARLESBookOfJubilees/page/n183/mode/2up
 #28,904 “ £”£’
 # get file name without extension
 txt_file = os.sys.argv[1]
